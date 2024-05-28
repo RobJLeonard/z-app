@@ -5,9 +5,7 @@
 </template>
 
 <script setup lang="ts">
-const props = defineProps({
-	buttonText: string,
-})
+const props = defineProps<{ buttonText: string }>()
 
 const handleClick = () => {
 	alert("Button clicked!")

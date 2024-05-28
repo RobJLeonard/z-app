@@ -2,4 +2,8 @@
 export default defineNuxtConfig({
 	devtools: { enabled: true },
 	modules: ["@nuxtjs/storybook"],
+  typescript: {
+    typeCheck: true,
+    strict: true,
+  }
 })
