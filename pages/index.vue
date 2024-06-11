@@ -1,4 +1,5 @@
 <template>
+	<NuxtPage ref="page" />
 	<div>
 		<h1>Hello, World!</h1>
 	</div>
