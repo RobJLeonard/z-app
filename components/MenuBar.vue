@@ -1,5 +1,5 @@
 <template>
-	<NavigationMenu>
+	<!-- <NavigationMenu>
 		<NavigationMenuList>
 			<NavigationMenuItem>
 				<NavigationMenuTrigger>Item One</NavigationMenuTrigger>
@@ -8,7 +8,7 @@
 				</NavigationMenuContent>
 			</NavigationMenuItem>
 		</NavigationMenuList>
-	</NavigationMenu>
+	</NavigationMenu> -->
 </template>
 
 <script setup lang="ts">

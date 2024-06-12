@@ -17,4 +17,14 @@ export default defineNuxtConfig({
 		 */
 		componentDir: "./components/ui",
 	},
+	storybook: {
+		// Options
+		host: "http://localhost",
+		port: 6006,
+	},
+  vite: {
+    optimizeDeps: {
+      entries: ["vue", "@nuxtjs/storybook"]
+    }
+  }
 })

@@ -24,3 +24,7 @@ logs
 !.env.example
 
 *storybook.log
+
+.output
+.storybook
+.nuxt-storybook

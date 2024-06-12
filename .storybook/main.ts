@@ -6,15 +6,17 @@ const config: StorybookConfig = {
 		"../stories/**/*.stories.@(js|jsx|mjs|ts|tsx)",
 	],
 	addons: [
-        "@storybook/addon-links",
-        "@storybook/addon-essentials",
-        "@storybook/addon-interactions",
-        "@storybook/addon-mdx-gfm",
-        "@chromatic-com/storybook"
-    ],
+		"@storybook/addon-links",
+		"@storybook/addon-essentials",
+		"@storybook/addon-interactions",
+		"@storybook/addon-mdx-gfm",
+		"@chromatic-com/storybook",
+	],
 	framework: {
 		name: "@storybook-vue/nuxt",
-		options: {},
+		options: {
+   
+    },
 	},
 	docs: {},
 }

@@ -1,14 +1,14 @@
 {
   "name": "nuxt-app",
   "private": true,
-  "type": "module",
+  "type": "commonjs",
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
-    "storybook": "storybook dev --port 6006",
+    "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build"
   },
   "dependencies": {
